@@ -1,0 +1,48 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CAP
+D capacitor
+K capacitor
+$ENDCMP
+#
+$CMP CAP-E
+D Electrolytic capacitor
+K capacitor electrolytic polarized
+$ENDCMP
+#
+$CMP CMC
+D Common mode choke
+K choke cmc
+$ENDCMP
+#
+$CMP DIODE
+D Diode
+K diode
+$ENDCMP
+#
+$CMP FUSE
+D Zener diode
+K zener diode
+$ENDCMP
+#
+$CMP INDUCTOR
+D Inductor
+K inductor
+$ENDCMP
+#
+$CMP POT
+D Resistor
+K resistor
+$ENDCMP
+#
+$CMP RESISTOR
+D Resistor
+K resistor
+$ENDCMP
+#
+$CMP ZENER
+D Zener diode
+K zener diode
+$ENDCMP
+#
+#End Doc Library
