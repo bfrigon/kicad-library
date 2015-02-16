@@ -6,9 +6,9 @@ I didn't like the way the schematic symbols are drawn in the default libraries. 
 These are the rules i use for my libraries
 - 100 mil pin length
 - Footprint field hidden by default
-- Smaller text size for value (40 mil)
+- Smaller text size for value field (40 mil)
 - Additional field (hidden by default) for part # on passive components
-
+- Filled background for all symbols
 
 
 Note: I am still in the process of converting my Eagle libraries to Kicad.
