@@ -1,4 +1,6 @@
 (module DF13A-10DP-1.25 (layer F.Cu) (tedit 54EAFBBC)
+  (descr "DF13 (1.25mm pitch) - Vert. Through Hole - Dual row, 10 pos.")
+  (tags "DF13 1.25mm Vertical SMT")
   (fp_text reference REF (at -6.6 -3.4) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )

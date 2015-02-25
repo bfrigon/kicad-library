@@ -1,4 +1,4 @@
-### conn.io ###
+### conn-io.pretty ###
 
 * USB Jack (Type A)
     - Molex 48204
