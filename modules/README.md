@@ -23,3 +23,7 @@ Connectors from Hirose Electric
 ### switches.pretty ###
 
 * Tactile switches
+
+
+### smt.pretty ###
+* Resistor footprint
