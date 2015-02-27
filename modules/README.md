@@ -26,4 +26,9 @@ Connectors from Hirose Electric
 
 
 ### smt.pretty ###
+
+SMT components
+
 * Resistor footprint
+* Capacitor (polarized)
+* Diodes
