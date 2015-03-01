@@ -1,4 +1,4 @@
-(module C-1206 (layer F.Cu) (tedit 54F01467)
+(module CPL-1206 (layer F.Cu) (tedit 54F01467)
   (descr "1206 (3216 metric)")
   (tags "smt 1206")
   (fp_text reference REF (at -3.175 -1.651) (layer F.SilkS)
