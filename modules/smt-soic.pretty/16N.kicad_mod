@@ -1,5 +1,5 @@
 (module 16N (layer F.Cu) (tedit 54F29608)
-  (descr "SOIC - 16 pin - Narrow (JEDEC MS-012-AA)")
+  (descr "SOIC - 16 pins - Narrow (JEDEC MS-012-AA)")
   (tags SOIC)
   (fp_text reference REF (at -5.715 2.032 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))

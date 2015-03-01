@@ -1,5 +1,5 @@
 (module 16W (layer F.Cu) (tedit 54F29B4C)
-  (descr "SOIC - 16 pin - Wide (JEDEC MS-013)")
+  (descr "SOIC - 16 pins - Wide (JEDEC MS-013)")
   (tags SOIC)
   (fp_text reference REF (at -5.969 3.937 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))

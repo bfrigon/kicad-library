@@ -1,5 +1,6 @@
 (module 8 (layer F.Cu) (tedit 54F29484)
-  (descr "SOIC - 8 pin (JEDEC MS-012AA)")
+  (descr "SOIC - 8 Pins (JEDEC MS-012AA)")
+  (tags SOIC)
   (fp_text reference REF (at -3.302 2.159 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
