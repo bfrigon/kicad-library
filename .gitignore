@@ -1,6 +1,7 @@
 *.bak
 *.bck
 *.pro
+*.wings~
 fp-lib-table
 
 *.directory

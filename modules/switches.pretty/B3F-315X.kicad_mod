@@ -34,4 +34,9 @@
   (pad 2 thru_hole circle (at 2.25 0) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad GND thru_hole circle (at -3.5 -2.5) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
   (pad GND thru_hole circle (at 3.5 -2.5) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
+  (model switches.pretty/b3f-315x.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
