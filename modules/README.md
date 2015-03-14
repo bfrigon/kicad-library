@@ -12,6 +12,7 @@ Connectors from Hirose Electric
 ### conn-header.pretty ###
 
 * Molex 100mil pitch, Single Row w/ Friction lock (KK-6373, KK-7478)
+* 100mil pitch - Male
 
     
 ### conn-io.pretty ###
