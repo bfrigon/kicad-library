@@ -28,4 +28,9 @@
   (pad 12 thru_hole circle (at 11.43 0) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 13 thru_hole circle (at 13.97 0) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 14 thru_hole circle (at 16.51 0) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
+  (model conn-header.pretty/HDR-M-1x14.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
