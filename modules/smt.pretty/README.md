@@ -22,3 +22,4 @@ SMT components
 
 * Diode
     - SOD-323
+    - DO-214-AA
