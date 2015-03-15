@@ -38,13 +38,19 @@ SMT components
 
 ### smt-soic.pretty ###
 
-SOIC package
+SOIC SMT package
 
 * 8,14,16 pins - Narrow (JEDEC MS-012AA)
 * 16,18,20,24,28 pins - Wide (JEDEC MS-013) 
 * 8 pins - Narrow w/ Exposed pad (JEDEC MS-012BA)
 
 
+### smt-sop.pretty ###
+
+SOP SMT packages
+
+* SSOP : 14,16,20,24,28 pins - 5.3mm (JEDEC MO-150)
+* MSOP : 8 pins - 3mm (JEDEC MO-187)
 
 ### misc.pretty ###
 
