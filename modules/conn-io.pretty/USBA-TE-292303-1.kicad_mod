@@ -1,4 +1,4 @@
-(module USBA-MOLEX-292303-1 (layer F.Cu) (tedit 54FA9BDA)
+(module USBA-TE-292303-1 (layer F.Cu) (tedit 54FA9BDA)
   (fp_text reference REF (at -0.1 -7.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
@@ -21,4 +21,9 @@
   (pad 4 thru_hole circle (at 13 3.5) (size 1.6 1.6) (drill 0.95) (layers *.Cu *.Mask))
   (pad SH thru_hole circle (at 10.28 -6.57) (size 3.3 3.3) (drill 2.3) (layers *.Cu *.Mask))
   (pad SH thru_hole circle (at 10.28 6.57) (size 3.3 3.3) (drill 2.3) (layers *.Cu *.Mask))
+  (model conn-io.pretty/USBA-TE-292303-1.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
