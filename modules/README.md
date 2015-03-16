@@ -34,6 +34,8 @@ SMT components
 * Capacitor
 * Polarized capacitor
 * Diodes
+* Inductors
+* Ferrite
 
 
 ### smt-soic.pretty ###
