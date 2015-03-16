@@ -15,6 +15,11 @@ D Common mode choke
 K choke cmc
 $ENDCMP
 #
+$CMP CRYSTAL
+D Crystal
+K xtal crystal
+$ENDCMP
+#
 $CMP DIODE
 D Diode
 K diode
@@ -38,6 +43,12 @@ $ENDCMP
 $CMP RESISTOR
 D Resistor
 K resistor
+$ENDCMP
+#
+$CMP SR05
+D TVS Diode Arrray
+K TVS diode
+F http://www.semtech.com/images/datasheet/sr05.pdf
 $ENDCMP
 #
 $CMP ZENER
