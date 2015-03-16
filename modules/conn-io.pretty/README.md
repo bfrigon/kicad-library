@@ -8,3 +8,6 @@
     - Molex 48025
     - Tyco 406549
     - Wurth 7498011122R 
+
+* DC Barrel Jack
+    - CUI PJ-013C

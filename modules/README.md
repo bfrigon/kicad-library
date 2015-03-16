@@ -19,6 +19,7 @@ Connectors from Hirose Electric
 
 * USB Jack (Type A)
 * RJ45 Jack
+* DC Barrel Jack
 
 
 ### switches.pretty ###
