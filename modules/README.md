@@ -62,6 +62,14 @@ SOP SMT packages
 * MSOP : 8 pins - 3mm (JEDEC MO-187)
 
 
+### smt-sot.pretty ###
+
+SOT SMT packages
+
+* SOT-143
+* SOT-23
+
+
 ### crystals.pretty ###
 
 * HC49UP (SMT)
