@@ -61,6 +61,13 @@ SOP SMT packages
 * HC49UP (SMT)
 
 
+### symbols.pretty ###
+
+* Open Hardware Logo (OSHW)
+* Gauges
+* Other symbols
+
+
 ### misc.pretty ###
 
 Various components
