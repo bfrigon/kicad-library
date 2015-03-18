@@ -22,6 +22,12 @@ Connectors from Hirose Electric
 * DC Barrel Jack
 
 
+### conn-wire-pads.pretty ###
+
+* Wire pads
+* Test points
+
+
 ### switches.pretty ###
 
 * Tactile switches
