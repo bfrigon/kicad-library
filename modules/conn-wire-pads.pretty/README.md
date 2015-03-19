@@ -6,3 +6,13 @@
 
 * Test points 
     - TEST-POINT-50 : 50mil wide test point
+
+* Mounting Holes w/ pad and vias
+    - Hole-Screw-#2
+    - Hole-Screw-#4
+    - Hole-Screw-#6
+
+* Mounting holes - No pads
+    - Hole-Screw-NP-#2
+    - Hole-Screw-NP-#4
+    - Hole-Screw-NP-#6
