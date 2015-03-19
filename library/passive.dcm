@@ -26,8 +26,8 @@ K diode
 $ENDCMP
 #
 $CMP FUSE
-D Zener diode
-K zener diode
+D Fuse
+K fuse
 $ENDCMP
 #
 $CMP INDUCTOR
@@ -46,7 +46,7 @@ K resistor
 $ENDCMP
 #
 $CMP SR05
-D TVS Diode Arrray
+D TVS Diode Array
 K TVS diode
 F http://www.semtech.com/images/datasheet/sr05.pdf
 $ENDCMP
