@@ -27,7 +27,7 @@
   (pad 4 thru_hole circle (at -1 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at -3 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at -5 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask))
-  (model conn-hirose.pretty/DF3A-6P-2DSA.wrl
+  (model conn-header.pretty/DF3A-6P-2DSA.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

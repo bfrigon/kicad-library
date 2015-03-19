@@ -23,7 +23,7 @@
   (fp_line (start -2.4 1) (end 2.4 1) (layer F.SilkS) (width 0.18))
   (pad 1 thru_hole rect (at 1 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -1 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask))
-  (model conn-hirose.pretty/DF3A-2P-2DSA.wrl
+  (model conn-header.pretty/DF3A-2P-2DSA.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

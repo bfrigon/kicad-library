@@ -51,7 +51,7 @@
   (pad 30 smd rect (at 8.75 3) (size 0.7 1.7) (layers F.Cu F.Paste F.Mask))
   (pad PAD smd rect (at -11.6 0) (size 2 2.2) (layers F.Cu F.Paste F.Mask))
   (pad PAD smd rect (at 11.6 0) (size 2 2.2) (layers F.Cu F.Paste F.Mask))
-  (model conn-hirose.pretty/DF13A-30DP-1.25V.wrl
+  (model conn-header.pretty/DF13A-30DP-1.25V.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
