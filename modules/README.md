@@ -11,6 +11,10 @@
 
 * USB Jack (Type A)
 * RJ45 Jack
+
+
+### conn-power.pretty ###
+
 * DC Barrel Jack
 
 
