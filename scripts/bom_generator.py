@@ -241,7 +241,7 @@ class BOM:
                 comp[ 'installed' ] = value.lower().strip() in [ 'true', 'yes', 'y', 't', '1', 'ok', 'installed' ]
 
 
-        if( comp[ 'family' ] in [ 'ic', 'connector' ] ):
+        if( comp[ 'family' ] in [ 'ic', 'connector', 'switch' ] ):
             
             if( comp[ 'part_no' ] == "" ):
                 comp[ 'part_no' ] = comp[ 'value' ]

@@ -47,13 +47,10 @@ class BOM_MARKDOWN( BOM ):
             if not os.path.exists( output_dir ):
                 os.makedirs( output_dir )
             
-            
-            print file_out
-            
             self.f_output = open( file_out, 'w' )
             
         except IOError:
-            print( '%s: Can\'t open output file for writing: %s' % ( __file__, sys.argv[2]) )
+            print( '%s: Can\'t open output file for writing: %s' % ( __file__, file_out ) )
             sys.exit( -1 )
     
     
@@ -71,6 +68,8 @@ class BOM_MARKDOWN( BOM ):
         self.f_output.write( '\n' )
         self.f_output.write( 'Part #  : %s\n' % ( self.title_block[ 'part_id' ] ) )
         self.f_output.write( 'REV.    : %s\n' % ( self.title_block[ 'rev' ] ) )
+        self.f_output.write( '\n' )
+        self.f_output.write( 'Components : %d\n' % ( len( self.components ) ) )
         self.f_output.write( '```\n\n' )
         self.f_output.write( '-' * 120 )
         self.f_output.write( '\n\n\n' )
