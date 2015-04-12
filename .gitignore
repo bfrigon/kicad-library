@@ -6,4 +6,5 @@ fp-lib-table
 
 *.directory
 
+*.pyc
 
