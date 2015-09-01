@@ -13,7 +13,6 @@ import shutil
 
 from pcbnew import *
 
-
 class Application():
 
     gerber_spec = {
@@ -22,11 +21,14 @@ class Application():
         "gl3" : {"layers" : [In2_Cu], "desc" : "Copper - Layer 3"},
         "gbl" : {"layers" : [B_Cu], "desc" : "Copper - Bottom"},
         "gts" : {"layers" : [F_Mask], "desc" : "Soldermask - Top"},
-        "gto" : {"layers" : [F_SilkS, Edge_Cuts], "desc" : "Legend - Top"},
+        "gto" : {"layers" : [F_SilkS], "desc" : "Legend - Top"},
         "gbs" : {"layers" : [B_Mask], "desc" : "Soldermask - Bottom"},
         "gbo" : {"layers" : [B_SilkS], "desc" : "Legend - Bottom"},
         "gko" : {"layers" : [Edge_Cuts], "desc" : "Profile"},
     }
+    
+    
+    
 
     def __init__(self):
         logging.basicConfig(format="%(levelname)s: %(message)s")
@@ -34,8 +36,11 @@ class Application():
         
         parser = argparse.ArgumentParser(description="Converts a kicad pcb to gerber files.")
         
-        parser.add_argument("--output-dir", "-d", help="The output directory, relative to the directory the board file is in.  Defaults to the same directory the board file is in.")
-        parser.add_argument("--zip", help="Put the output gerber files in a zip file", action="store_true")
+        parser.add_argument( "--output-dir", "-d", help="The output directory, relative to the directory the board file is in.  Defaults to the same directory the board file is in." )
+        parser.add_argument( "--zip", help="Put the output gerber files in a zip file", action="store_true" )
+        parser.add_argument( "--gen-drill-map", help="Generate drill map", action="store_true" )
+        parser.add_argument( "--merge-npth", "-m", help="Merge NPTH and PTH in a single drill file", action="store_true" )
+        parser.add_argument( "--exclude-edge", "-e", help="Exclude edge layer", action="store_true" )
 
         
         parser.add_argument("filename", help="kicad pcb file")
@@ -47,47 +52,32 @@ class Application():
         
         try:
             ## Load board ##
-            self.pcb = LoadBoard(self.args.filename);
-            self.pctl = PLOT_CONTROLLER(self.pcb)
-            self.popt = self.pctl.AccessPlotOpts()            
-            
+            self.board = LoadBoard(self.args.filename);
             self.boardname = os.path.splitext( os.path.basename( self.args.filename ))[0]
 
-            
             ## Read pcb plotter settings ##
-            pcb_popt = self.pcb.GetPlotOptions()
-
+            pcb_popt = self.board.GetPlotOptions()            
             
             ## Set plotter output directory ##
-            output_dir = self.args.output_dir if self.args.output_dir else pcb_popt.GetOutputDirectory()
-            full_output_dir = os.path.join( os.path.dirname( os.path.abspath( self.args.filename )), output_dir )
-            
-            if ( self.args.zip ):
-                zip_tmp_dir = tempfile.mkdtemp(prefix="gen-gerber-" + self.boardname)
-                self.popt.SetOutputDirectory( zip_tmp_dir )
-            else:
-                self.popt.SetOutputDirectory( output_dir )
+            self.output_dir = self.args.output_dir or pcb_popt.GetOutputDirectory() or "gerber"
+            self.full_output_dir = os.path.join( os.path.dirname( os.path.abspath( self.args.filename )), self.output_dir )
 
-                
-            ## Create the output directory if it does not exists ##
-            if not os.path.exists( output_dir ):
-                os.makedirs( output_dir )
+            if self.args.zip:
+                self.zip_tmp_dir = tempfile.mkdtemp( prefix="gen-gerber-" + self.boardname )
             
             self.plot()
-            
+            self.gen_drill()
             
             if self.args.zip:
-                
-                
-                zip_filename = os.path.join( full_output_dir, self.boardname ) + ".zip"
+                zip_filename = os.path.join( self.full_output_dir, self.boardname ) + ".zip"
                 
                 zipf = zipfile.ZipFile( zip_filename, 'w' )
                 
-                for root, dirs, files in os.walk( zip_tmp_dir ):
+                for root, dirs, files in os.walk( self.zip_tmp_dir ):
                     for fn in files:
                         zipf.write(os.path.join( root, fn ), os.path.basename( fn ))
             
-                shutil.rmtree( zip_tmp_dir )
+                shutil.rmtree( self.zip_tmp_dir )
            
                                
             
@@ -98,20 +88,65 @@ class Application():
     
     def plot(self):
         
+        pctl = PLOT_CONTROLLER( self.board )
+        popt = pctl.GetPlotOptions()
+        
+        if ( self.args.zip ):
+            
+            popt.SetOutputDirectory( self.zip_tmp_dir )
+        else:
+            popt.SetOutputDirectory( self.output_dir )
+
+
+        popt.SetPlotFrameRef( False )
+        popt.SetLineWidth( FromMM( 0.35 ))
+        
+        popt.SetAutoScale( False )
+        popt.SetScale( 1 )
+        popt.SetMirror( False )
+        popt.SetUseGerberAttributes( False )
+        popt.SetExcludeEdgeLayer( self.args.exclude_edge );
+        popt.SetScale( 1 )
+        popt.SetUseAuxOrigin( False )
+        popt.SetSubtractMaskFromSilk( False )
+
+            
+        ## Create the output directory if it does not exists ##
+        if not os.path.exists( self.output_dir ):
+            os.makedirs( self.output_dir )
+        
         for ext, spec in self.gerber_spec.iteritems():
             
-            self.logger.debug( "Plotting: %s, Layers: %s, Filename: %s" % 
-                               (spec["desc"], 
-                                str(spec["layers"]),
-                                self.boardname + "." + ext) )
+            self.logger.debug( "Plotting: %s, Layers: %s, Filename: %s" % (
+                               spec[ "desc" ], str( spec[ "layers" ]),
+                                self.boardname + "." + ext ))
             
-            self.pctl.OpenPlotfile( "", PLOT_FORMAT_GERBER, "", spec["layers"][0], ext )
+            pctl.SetLayer( spec[ "layers" ][ 0 ] )
+            pctl.OpenPlotfile( "", PLOT_FORMAT_GERBER, spec[ "desc" ], ext )
 
-            for layer in spec["layers"]:
-                self.pctl.PlotLayer( layer )
+            for layer in spec[ "layers" ]:
+                pctl.SetLayer( layer )
+                pctl.PlotLayer()
 
-            self.pctl.ClosePlot()
+            pctl.ClosePlot()
 
+    def gen_drill(self):
+        
+        
+        drlwriter = EXCELLON_WRITER( self.board )
+        
+        drlwriter.SetMapFileFormat( PLOT_FORMAT_PDF )
+  
+        mirror = False
+        minimalHeader = True
+        offset = wxPoint(0,0)
+        drlwriter.SetOptions( mirror, minimalHeader, offset, self.args.merge_npth )
+        
+        metricFmt = False
+        drlwriter.SetFormat( metricFmt, EXCELLON_WRITER.SUPPRESS_LEADING )
+        
+        drlwriter.CreateDrillandMapFilesSet( self.output_dir, True, self.args.gen_drill_map );
+        
 
 if __name__=="__main__":
     app = Application()
