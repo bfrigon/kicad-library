@@ -15,6 +15,7 @@ LibName4=ic-misc
 LibName5=passive
 LibName6=power
 LibName7=switches
+LibName8=opto
 [pcbnew]
 version=1
 PageLayoutDescrFile=worksheet.kicad_wks
