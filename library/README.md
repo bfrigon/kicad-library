@@ -64,7 +64,6 @@ Note : Prefix SUP_ means that the type of pin in the symbol is defined as "power
 ### ic-misc ###
 
 * CAT811 : 4-Pin Microprocessor Power Supply Supervisor
-* MCP9804 : Digital Temperature Sensor
 * PCM2704C : Stereo Audio DAC with USB Interface
 * TPA2005 : 1.4W Mono Class-D Audio Amplifier
 
@@ -81,3 +80,16 @@ Note : Prefix SUP_ means that the type of pin in the symbol is defined as "power
 ### ic-cpu ###
 
 * ARIA-G25 : AT91SAM9G25 SOM
+
+----------------------------------
+
+### ic-io ###
+
+* AT42QT1070 : 7 channel QTouch Touch sensor IC
+* MCP9804 : Digital Temperature Sensor
+
+----------------------------------
+
+### opto ###
+
+* WS2812B : Smart RGB LED (Pixel)
