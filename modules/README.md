@@ -2,6 +2,7 @@
 
 ### conn-header.pretty ###
 
+* Molex 2mm pitch - Male (Standard)
 * Molex 100mil pitch, Single Row w/ Friction lock (KK-6373, KK-7478)
 * 100mil pitch - Male
 * Hirose DF3 series connectors (2mm pitch)
