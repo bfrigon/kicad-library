@@ -40,6 +40,7 @@ SMT components
 * Diodes
 * Inductors
 * Ferrite
+* Leds
 
 
 ### smt-soic.pretty ###

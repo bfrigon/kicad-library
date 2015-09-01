@@ -32,3 +32,6 @@ SMT components
     - 0805 (2012 metric)
     - 1206 (3216 metric)
     - 1210 (3225 metric)
+
+* LED
+    - 5050 (WS2812x)
