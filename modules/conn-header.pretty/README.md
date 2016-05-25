@@ -2,6 +2,7 @@
 
 * Molex 2mm pitch - Male (Standard)
     - 2MM-HDR-M-2x** : Vertical, Through hole, Dual row (2 to 30 pos)
+    - 2MM-HDR-M-1x** : Vertical, Through hole, Single row (1 to 15 pos)
 
 * Molex 100mil pitch, Single Row w/ Friction lock
     - MOLEX-22-05-3**1 : KK-7478, Right angle, Through Hole - (1 to 15 pins)
