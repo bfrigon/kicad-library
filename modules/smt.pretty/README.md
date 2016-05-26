@@ -35,3 +35,4 @@ SMT components
 
 * LED
     - 5050 (WS2812x)
+    - 0805

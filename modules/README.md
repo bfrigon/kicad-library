@@ -44,6 +44,12 @@ SMT components
 * Leds
 
 
+### smt-fnf.pretty ###
+
+DFN SMT packages
+* 6 pins
+
+
 ### smt-soic.pretty ###
 
 SOIC SMT package
@@ -83,4 +89,6 @@ SOT SMT packages
 
 ### misc.pretty ###
 
-Various components
+* Various components
+* Mouse bite patterns
+* LCD Modules
