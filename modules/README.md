@@ -11,6 +11,7 @@
 ### conn-io.pretty ###
 
 * USB Jack (Type A)
+* USB JAck (Type B)
 * RJ45 Jack
 
 

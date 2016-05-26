@@ -1,8 +1,8 @@
-(module touchpad-500x500 (layer F.Cu) (tedit 57466026)
-  (fp_text reference REF (at -5.08 -7.112) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.18)))
+(module TouchPad-500x500 (layer F.Cu) (tedit 57467A3F)
+  (fp_text reference REF** (at -5.08 -5.715) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value VAL** (at 0 0) (layer F.SilkS)
+  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -5.08 5.08) (end -5.08 -5.08) (layer F.SilkS) (width 0.15))

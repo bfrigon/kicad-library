@@ -4,7 +4,7 @@
   (fp_text reference REF** (at 0 3.81) (layer Eco1.User) hide
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
-  (fp_text value Val** (at 0 4.445) (layer Eco1.User) hide
+  (fp_text value VAL** (at 0 4.445) (layer Eco1.User) hide
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
   (fp_line (start 0 -9.99998) (end -1.99898 -9.99998) (layer Eco1.User) (width 0.15))

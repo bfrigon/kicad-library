@@ -2,10 +2,10 @@
   (descr "Hirose MicroSD Card Connector - DM3AT")
   (tags microsd)
   (clearance 0.254)
-  (fp_text reference REF (at 8.8 -14.9 90) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
+  (fp_text reference REF** (at 8.128 -17.653 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.18)) (justify right top))
   )
-  (fp_text value HIROSE-MICROSD-DM3AT-SF (at -9 -8.8 90) (layer F.SilkS) hide
+  (fp_text value VAL** (at -8.636 -8.8 90) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -3.5 -1.75) (end 3 -1.75) (layer F.SilkS) (width 0.18))

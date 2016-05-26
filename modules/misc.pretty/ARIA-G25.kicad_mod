@@ -1,10 +1,10 @@
 (module ARIA-G25 (layer F.Cu) (tedit 5507F3AE)
   (descr "ARIA G25 SOM")
   (tags "SOM, ARIA G25")
-  (fp_text reference REF (at -20.066 -20.574) (layer F.SilkS)
+  (fp_text reference REF** (at -20.066 -20.574) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value ARIA-G25 (at 0 0) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start 0.635 -10.795) (end 13.335 -10.795) (layer Dwgs.User) (width 0.05))

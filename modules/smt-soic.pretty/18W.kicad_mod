@@ -1,10 +1,10 @@
 (module 18W (layer F.Cu) (tedit 54F2A4E8)
   (descr "SOIC - 18 pins - Wide (JEDEC MS-013)")
   (tags SOIC)
-  (fp_text reference REF (at -6.604 3.937 90) (layer F.SilkS)
+  (fp_text reference REF** (at -6.604 3.937 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value Val** (at 7.7 0 90) (layer F.SilkS) hide
+  (fp_text value VAL** (at 7.7 0 90) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -5.8 5.15) (end 5.8 5.15) (layer Dwgs.User) (width 0.05))

@@ -1,7 +1,7 @@
 (module WP-100mil-1x01 (layer F.Cu) (tedit 574660B6)
   (descr "Wire pads - 100mil x 150 mil - Single row, 1 pos.")
   (attr virtual)
-  (fp_text reference REF (at 0 -3.175) (layer F.SilkS) hide
+  (fp_text reference REF** (at 0 -3.175) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_text value VAL** (at 0 3.175) (layer F.Fab) hide

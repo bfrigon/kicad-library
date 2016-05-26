@@ -1,10 +1,10 @@
 (module 20W (layer F.Cu) (tedit 54F2A9F5)
   (descr "SOIC - 20 pins - Wide (JEDEC MS-013)")
   (tags SOIC)
-  (fp_text reference REF (at -7.2 4 90) (layer F.SilkS)
+  (fp_text reference REF** (at -7.2 4 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value Val** (at 7.9 0 90) (layer F.SilkS) hide
+  (fp_text value VAL** (at 7.9 0 90) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -6.9 -6.5) (end 6.9 -6.5) (layer F.CrtYd) (width 0.05))

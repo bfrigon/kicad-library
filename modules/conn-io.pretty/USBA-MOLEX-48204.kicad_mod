@@ -1,10 +1,10 @@
 (module USBA-MOLEX-48204 (layer F.Cu) (tedit 54FA9BBB)
   (descr "USB - Jack, type A - Right angle")
   (tags "usb r/a")
-  (fp_text reference REF (at 20.9804 2.0828 90) (layer F.SilkS)
+  (fp_text reference REF** (at 13.335 -3.175 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value USBA-MOLEX-48204 (at 9.9 -4.6) (layer F.SilkS) hide
+  (fp_text value VAL** (at -1.524 0 90) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -0.5 -3.1) (end 19.7 -3.1) (layer F.CrtYd) (width 0.05))

@@ -1,10 +1,10 @@
 (module CUI-PJ-031CH (layer F.Cu) (tedit 550B81DF)
   (descr "Power Jack - 1.1mm ID 3.5mm OD")
   (tags "dc jack")
-  (fp_text reference REF (at 11.43 -4.064) (layer F.SilkS)
+  (fp_text reference REF** (at 11.43 -4.064) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify right top))
   )
-  (fp_text value Val** (at -1.4 0 90) (layer F.SilkS) hide
+  (fp_text value VAL** (at -1.4 0 90) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -0.5 -3) (end 12.6 -3) (layer F.CrtYd) (width 0.05))

@@ -12,13 +12,13 @@
     - Touchpad-900x500  : 900mil x 500mil
     - Touchpad-1000x500 : 1000mil x 500mil
 
-* Card Edge pads
+* Card edge pads
     - CardEdge-100mil-12 : Card edge, 100mil pitch, 12 pos.
 
 * Test points 
     - TEST-POINT-50 : 50mil wide test point.
 
-* Mounting Holes w/ pad and vias
+* Mounting holes w/ pad and vias
     - Hole-Screw-#2
     - Hole-Screw-#4
     - Hole-Screw-#6

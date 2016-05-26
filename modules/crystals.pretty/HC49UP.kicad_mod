@@ -1,9 +1,9 @@
 (module HC49UP (layer F.Cu) (tedit 5505E51B)
   (descr "Crystal - SMT - HC49UP")
-  (fp_text reference REF (at -5.7 -3) (layer F.SilkS)
+  (fp_text reference REF** (at -5.7 -3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value **val (at -5.7 4.1) (layer F.SilkS) hide
+  (fp_text value VAL** (at -5.7 4.1) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
   (fp_line (start -8 -2.9) (end 8 -2.9) (layer F.CrtYd) (width 0.05))

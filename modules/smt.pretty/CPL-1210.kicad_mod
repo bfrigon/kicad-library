@@ -1,10 +1,10 @@
 (module CPL-1210 (layer F.Cu) (tedit 55055D13)
   (descr "1210 (3225 metric)")
   (tags "smt 1210")
-  (fp_text reference REF (at -3.302 -2.159) (layer F.SilkS)
+  (fp_text reference REF** (at -3.302 -2.159) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value Val** (at 0 2.794) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 2.794) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -1.524 -1.27) (end 1.524 -1.27) (layer Dwgs.User) (width 0.05))

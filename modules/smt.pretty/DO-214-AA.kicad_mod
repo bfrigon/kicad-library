@@ -1,9 +1,9 @@
 (module DO-214-AA (layer F.Cu) (tedit 55012CA5)
   (descr "Diode DO214-AA")
-  (fp_text reference REF (at -2.4 -2.5) (layer F.SilkS)
+  (fp_text reference REF** (at -2.4 -2.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value Val** (at 0 3.4) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 3.4) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -3.8 -2.3) (end 3.8 -2.3) (layer F.CrtYd) (width 0.05))

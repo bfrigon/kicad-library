@@ -1,9 +1,9 @@
 (module IND-10X10 (layer F.Cu) (tedit 55012975)
   (descr "Inductor - 10mm x 10mm")
-  (fp_text reference REF (at -5.2 -5.6) (layer F.SilkS)
+  (fp_text reference REF** (at -5.2 -5.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value Val** (at 0 6.5) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 6.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -6.7 5.5) (end -6.7 -5.5) (layer F.CrtYd) (width 0.05))

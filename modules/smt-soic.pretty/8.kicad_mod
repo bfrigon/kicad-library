@@ -1,10 +1,10 @@
 (module 8 (layer F.Cu) (tedit 54F29484)
   (descr "SOIC - 8 Pins (JEDEC MS-012AA)")
   (tags SOIC)
-  (fp_text reference REF (at -3.302 2.159 90) (layer F.SilkS)
+  (fp_text reference REF** (at -3.302 2.159 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value Val** (at 3.937 0 90) (layer F.SilkS) hide
+  (fp_text value VAL** (at 3.937 0 90) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start 2.5 3) (end 2.5 -3) (layer Dwgs.User) (width 0.05))

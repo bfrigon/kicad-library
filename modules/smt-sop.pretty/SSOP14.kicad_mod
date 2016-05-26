@@ -2,10 +2,10 @@
   (descr "SSOP - 14 Pins (JEDEC MO-150)")
   (tags SSOP)
   (clearance 0.254)
-  (fp_text reference REF (at -3.7 2.8 90) (layer F.SilkS)
+  (fp_text reference REF** (at -3.7 2.8 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value Val** (at 4.35 0 90) (layer F.SilkS) hide
+  (fp_text value VAL** (at 4.35 0 90) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -3.6 -5.2) (end 3.6 -5.2) (layer F.CrtYd) (width 0.05))

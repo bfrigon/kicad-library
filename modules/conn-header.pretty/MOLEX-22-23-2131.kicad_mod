@@ -1,10 +1,10 @@
 (module MOLEX-22-23-2131 (layer F.Cu) (tedit 54EE5075)
   (descr "Molex KK-6373 - 100mil pitch - Single Row, Vertical w/Lock - 13 pos.")
   (tags "Header 100mil Vertical Through Hole")
-  (fp_text reference REF (at -16.764 -3.81) (layer F.SilkS)
+  (fp_text reference REF** (at -16.764 -3.81) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value 22-23-2131 (at 0 4.572) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 4.572) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -17.018 -3.683) (end 17.018 -3.683) (layer F.CrtYd) (width 0.05))

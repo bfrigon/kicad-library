@@ -1,9 +1,9 @@
 (module LOGO-OSHW-250 (layer F.Cu) (tedit 55088658)
   (descr "Open Source Hardware Logo - 250mil wide")
-  (fp_text reference LOGO-OSHW-250 (at 0 -4.191) (layer Dwgs.User) hide
+  (fp_text reference REF** (at 0 -4.191) (layer Dwgs.User) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
-  (fp_text value OSHW (at 0 3.683) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 3.683) (layer F.SilkS) hide
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
   (fp_poly (pts (xy -1.92532 2.53238) (xy -1.88976 2.5146) (xy -1.8161 2.46888) (xy -1.70942 2.39776)

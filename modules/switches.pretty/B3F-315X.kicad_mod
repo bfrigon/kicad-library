@@ -1,10 +1,10 @@
 (module B3F-315X (layer F.Cu) (tedit 54E16463)
   (descr "Tactile switch - SPST - 7.4mm - Right angle")
   (tags "tactile switch")
-  (fp_text reference REF (at -3.8 -4.6) (layer F.SilkS)
+  (fp_text reference REF** (at -3.8 -4.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value B3F-315X (at -5.4 0 90) (layer F.SilkS) hide
+  (fp_text value VAL** (at -5.4 0 90) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -4.1 -4.5) (end 4.1 -4.5) (layer F.CrtYd) (width 0.05))

@@ -1,9 +1,9 @@
 (module SIGNATURE (layer F.Cu) (tedit 5509107B)
   (descr Signature)
-  (fp_text reference SIGNATURE (at 0 -2.54) (layer Dwgs.User) hide
+  (fp_text reference REF** (at 0 -2.54) (layer Dwgs.User) hide
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
-  (fp_text value LOGO (at 0 2.54) (layer Dwgs.User) hide
+  (fp_text value VAL** (at 0 2.54) (layer Dwgs.User) hide
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
   (fp_poly (pts (xy 0.20104 -0.525379) (xy 0.197773 -0.462298) (xy 0.185688 -0.407945) (xy 0.180484 -0.394861)

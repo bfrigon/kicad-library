@@ -1,9 +1,9 @@
 (module HDR-M-1x9 (layer F.Cu) (tedit 5502825E)
   (descr "Header - 100mil pitch - Male - Single Row, Vertical, 9 pos.")
-  (fp_text reference REF (at -11.684 -1.905) (layer F.SilkS)
+  (fp_text reference REF** (at -11.684 -1.905) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value Val** (at 0 2.667) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 2.667) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -11.938 -1.778) (end 11.938 -1.778) (layer F.CrtYd) (width 0.05))

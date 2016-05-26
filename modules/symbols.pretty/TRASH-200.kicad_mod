@@ -1,8 +1,8 @@
 (module TRASH-200 (layer F.Cu) (tedit 5508872D)
-  (fp_text reference TRASH-200 (at 0 -3.81) (layer Dwgs.User) hide
+  (fp_text reference REF** (at 0 -3.81) (layer Dwgs.User) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
-  (fp_text value Val** (at 0 4.191) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 4.191) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -1.4224 -1.8034) (end -1.061278 1.952269) (layer F.SilkS) (width 0.2032))

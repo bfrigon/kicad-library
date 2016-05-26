@@ -1,10 +1,10 @@
 (module DF3DZ-11P-2VXX (layer F.Cu) (tedit 54E15B24)
   (descr "DF3 (2mm pitch) - Vert. SMT - Single row, 11 pos.")
   (tags "DF3 2mm SMT Vertical")
-  (fp_text reference REF (at -13.3 -7.7) (layer F.SilkS)
+  (fp_text reference REF** (at -13.3 -7.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value DF3DZ-11P-2VXX (at 0 2.7) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 2.7) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -13.7 -7.6) (end 13.7 -7.6) (layer F.CrtYd) (width 0.05))

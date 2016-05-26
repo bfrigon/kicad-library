@@ -1,10 +1,10 @@
 (module DF13A-40DP-1.25 (layer F.Cu) (tedit 54F68A5F)
   (descr "DF13 (1.25mm pitch) - Vert. Through Hole - Dual row, 40 pos.")
   (tags "DF13 1.25mm Vertical SMT")
-  (fp_text reference REF (at -15.65 -3.4) (layer F.SilkS)
+  (fp_text reference REF** (at -15.65 -3.4) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value DF13A-40DP-1.25 (at 0 5.25) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 5.25) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -15.95 -3.3) (end 15.95 -3.3) (layer F.CrtYd) (width 0.05))

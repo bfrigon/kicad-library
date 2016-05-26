@@ -1,10 +1,10 @@
 (module C-1206 (layer F.Cu) (tedit 54F0A8D9)
   (descr "1206 (3216 metric)")
   (tags "smt 1206")
-  (fp_text reference REF (at -2.794 -1.651) (layer F.SilkS)
+  (fp_text reference REF** (at -2.794 -1.651) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value Val** (at 0 2.413) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 2.413) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -1.524 -0.762) (end 1.524 -0.762) (layer Dwgs.User) (width 0.05))

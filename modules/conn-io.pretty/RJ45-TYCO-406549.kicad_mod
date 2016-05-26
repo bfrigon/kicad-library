@@ -1,10 +1,10 @@
 (module RJ45-TYCO-406549 (layer F.Cu) (tedit 54FA9BF6)
   (descr "Tyco 406549 - 100 BASE-T, RJ45 Jack")
   (tags "rj45 tyco")
-  (fp_text reference REF (at 12.7 8.89 90) (layer F.SilkS)
+  (fp_text reference REF** (at 12.319 8.763 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value RJ45-TYCO-406549 (at -7.3 0.1 90) (layer F.SilkS) hide
+  (fp_text value VAL** (at -6.858 0 90) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -5.8 -9.1) (end 11 -9.1) (layer F.CrtYd) (width 0.05))

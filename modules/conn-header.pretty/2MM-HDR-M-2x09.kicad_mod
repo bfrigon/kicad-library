@@ -1,9 +1,9 @@
 (module 2MM-HDR-M-2x09 (layer F.Cu) (tedit 55E5401C)
   (descr "Header - 2mm pitch - Male - Dual Row, Vertical, 18 pos.")
-  (fp_text reference REF (at -9 -2.5) (layer F.SilkS)
+  (fp_text reference REF** (at -9 -2.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value Val** (at 0 3.81) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 3.81) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -9.5 -2.5) (end 9.5 -2.5) (layer F.CrtYd) (width 0.05))

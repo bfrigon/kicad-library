@@ -1,8 +1,8 @@
 (module MOLEX-MICROSD-5027020891 (layer F.Cu) (tedit 5504A850)
-  (fp_text reference REF (at -8.4 14.8 90) (layer F.SilkS)
+  (fp_text reference REF** (at -7.874 14.605 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
   )
-  (fp_text value MOLEX-MICROSD-5027020891 (at 0 18.1) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 18.1) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start -8.3 -0.5) (end 8.3 -0.5) (layer F.CrtYd) (width 0.05))
