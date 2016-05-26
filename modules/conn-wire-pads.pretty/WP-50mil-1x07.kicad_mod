@@ -1,10 +1,10 @@
-(module WP-50mil-1x07 (layer F.Cu) (tedit 5509C47B)
+(module WP-50mil-1x07 (layer F.Cu) (tedit 57465ED3)
   (descr "Wire pads - 50mil x 125mil - Single row, 7 pos.")
   (attr virtual)
   (fp_text reference REF (at -7.747 -2.794) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.18)))
   )
-  (fp_text value WP-50mil-1x07 (at 0 3.175) (layer F.Fab) hide
+  (fp_text value VAL** (at 0 3.175) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.18)))
   )
   (fp_line (start 8.89 1.905) (end -8.89 1.905) (layer F.SilkS) (width 0.18))
