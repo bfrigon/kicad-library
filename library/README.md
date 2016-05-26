@@ -35,6 +35,7 @@ Note : Prefix SUP_ means that the type of pin in the symbol is defined as "power
 * TEST-POINT
 * USB-A : USB Connector - Type A
 * USB-B : USB Connector - Tybe B
+* USB-MINI-B : USB Connector - Type B mini
 
 ----------------------------------
 
@@ -51,6 +52,7 @@ Note : Prefix SUP_ means that the type of pin in the symbol is defined as "power
 * RESISTOR
 * SR05 : TVS Diode Array
 * ZENNER
+* MOSFET-N
 
 ----------------------------------
 
@@ -66,6 +68,7 @@ Note : Prefix SUP_ means that the type of pin in the symbol is defined as "power
 * CAT811 : 4-Pin Microprocessor Power Supply Supervisor
 * PCM2704C : Stereo Audio DAC with USB Interface
 * TPA2005 : 1.4W Mono Class-D Audio Amplifier
+* TSL256X : Light sensor
 
 ----------------------------------
 
@@ -74,6 +77,7 @@ Note : Prefix SUP_ means that the type of pin in the symbol is defined as "power
 * ADP2302 : 2A Step-down regulator
 * ADP2303 : 3A Step-down regulator
 * LM3526 : Dual port USB power switch
+* LP2981 : 100 mA LDO Regulator w/ Shutdown
 
 ----------------------------------
 
@@ -93,3 +97,4 @@ Note : Prefix SUP_ means that the type of pin in the symbol is defined as "power
 ### opto ###
 
 * WS2812B : Smart RGB LED (Pixel)
+* ER-OLED1602 : 16x2 character OLED display

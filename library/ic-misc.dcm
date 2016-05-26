@@ -20,4 +20,14 @@ D 1.4W Mono Class-D Audio Amplifier
 F http://www.ti.com/lit/ds/symlink/pcm2704c.pdf
 $ENDCMP
 #
+$CMP TSL2560
+D Light To Digital Converter (SMBus)
+F http://www.onsemi.com/pub/Collateral/CAT811-D.PDF
+$ENDCMP
+#
+$CMP TSL2561
+D Light To Digital Converter (I2C)
+F http://www.onsemi.com/pub/Collateral/CAT811-D.PDF
+$ENDCMP
+#
 #End Doc Library

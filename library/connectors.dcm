@@ -362,4 +362,9 @@ D USB Connector - Type B
 K USB
 $ENDCMP
 #
+$CMP USB-MINI-B
+D USB Connector - Type B
+K USB
+$ENDCMP
+#
 #End Doc Library

@@ -24,4 +24,10 @@ K usb switch current
 F http://www.ti.com/lit/ds/symlink/lm3526.pdf
 $ENDCMP
 #
+$CMP LP2981
+D 100 mA LDO Regulator w/ Shutdown
+K regulator linear LDO
+F http://www.ti.com/lit/ds/symlink/lp2981-33.pdf
+$ENDCMP
+#
 #End Doc Library
