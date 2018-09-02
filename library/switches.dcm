@@ -8,6 +8,10 @@ $CMP MOM-SPST-GND
 D Momentary SPST switch with ground tabs
 $ENDCMP
 #
+$CMP SPDT
+D Momentary SPST switch
+$ENDCMP
+#
 $CMP TOUCH-KEY
 D Momentary SPST switch
 $ENDCMP

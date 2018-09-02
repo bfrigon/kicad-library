@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDC642P
+D Single P-Channel MOSFET 20V 4A
+K MOSFET P
+$ENDCMP
+#
+$CMP N-MOSFET
+D N-Channel MOSFET
+K MOSFET N
+$ENDCMP
+#
+$CMP NTF6P02
+D Single P-Channel MOSFET 20V 10A
+K MOSFET P
+$ENDCMP
+#
+$CMP P-MOSFET
+D P-Channel MOSFET
+K MOSFET P
+$ENDCMP
+#
+#End Doc Library

@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BATT-1C
+D Battery - 1 cell
+K capacitor
+$ENDCMP
+#
 $CMP CAP
 D Capacitor
 K capacitor
@@ -35,11 +40,6 @@ D Inductor
 K inductor
 $ENDCMP
 #
-$CMP N-MOSFET
-D N-Channel MOSFET
-K MOSFET N
-$ENDCMP
-#
 $CMP POT
 D Resistor
 K resistor
@@ -50,10 +50,20 @@ D Resistor
 K resistor
 $ENDCMP
 #
+$CMP SCHOTTKY
+D Schottky Diode
+K diode
+$ENDCMP
+#
 $CMP SR05
 D TVS Diode Array
 K TVS diode
 F http://www.semtech.com/images/datasheet/sr05.pdf
+$ENDCMP
+#
+$CMP SUPRESSOR
+D ESD Supressor
+K esd
 $ENDCMP
 #
 $CMP ZENER

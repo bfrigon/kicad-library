@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74X245
+D Octal Bus Transceiver With 3-State Outputs
+K logic 74 245
+$ENDCMP
+#
+$CMP 74X4050
+D Hex Buffer non-inverting
+K logic 74 4050
+$ENDCMP
+#
+#End Doc Library

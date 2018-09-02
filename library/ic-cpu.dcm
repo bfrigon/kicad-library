@@ -6,4 +6,19 @@ K at91 som
 F http://www.acmesystems.it/pinout_ariag25
 $ENDCMP
 #
+$CMP ATMEGA2560-16AU
+D 8-bit Atmel Microcontroller
+F http://www.atmel.com/Images/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA8U2
+D 8-bit Atmel Microcontroller
+F http://www.atmel.com/Images/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
+$ENDCMP
+#
+$CMP DS3231M
+D I2C Real-Time Clock
+F http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf
+$ENDCMP
+#
 #End Doc Library
