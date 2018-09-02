@@ -2,6 +2,9 @@
 
 * ACME Systems SOM
     - ARIA-G25
+    
+* Wifi modules
+    - ATWINC1500-MR210PB
 
 * LCD modules
     - OLED ER-OLED1602

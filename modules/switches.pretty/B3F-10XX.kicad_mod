@@ -1,4 +1,4 @@
-(module B3F-10XX (layer F.Cu) (tedit 54E1651B)
+(module B3F-10XX (layer F.Cu) (tedit 5B8B949F)
   (descr "Tactile switch - SPST - 6mm")
   (tags "tactile switch")
   (fp_text reference REF** (at -2.7 -3.6) (layer F.SilkS)
@@ -22,4 +22,9 @@
   (pad 1 thru_hole circle (at 3.25 2.25) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 3.25 -2.25) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -3.25 -2.25) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/switches.pretty/B3F-10XX.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

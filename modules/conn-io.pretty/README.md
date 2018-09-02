@@ -11,3 +11,8 @@
     - Molex 48025
     - Tyco 406549
     - Wurth 7498011122R 
+
+* Micro SD slot
+    - Molex 5027020891
+    - Molex 475710001
+    - Hirose DM3AT-SF

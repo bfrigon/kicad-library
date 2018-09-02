@@ -6,3 +6,4 @@ SOT SMT packages
 * SOT-23
 * SOT-23-5
 * SOT-23-6
+* SOT-223

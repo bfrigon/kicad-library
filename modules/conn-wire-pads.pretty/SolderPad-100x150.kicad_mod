@@ -1,0 +1,15 @@
+(module SolderPad-100x150 (layer F.Cu) (tedit 5B8A387E)
+  (descr "Wire pads - 100mil x 150 mil - Single row, 1 pos.")
+  (attr virtual)
+  (fp_text reference **REF (at 0 -3.175) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.18)))
+  )
+  (fp_text value **VAL (at 0 3.175) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.18)))
+  )
+  (fp_line (start -2.2225 -1.5875) (end 2.2225 -1.5875) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 2.2225 -1.5875) (end 2.2225 1.5875) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 2.2225 1.5875) (end -2.2225 1.5875) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -2.2225 1.5875) (end -2.2225 -1.5875) (layer F.CrtYd) (width 0.05))
+  (pad 1 smd rect (at 0 0) (size 3.81 2.54) (layers F.Cu F.Paste F.Mask))
+)

@@ -1,0 +1,13 @@
+(module TouchPad-700x600 (layer F.Cu) (tedit 5B4402EE)
+  (fp_text reference REF** (at -7.62 -6.985) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.18)) (justify left bottom))
+  )
+  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.18)))
+  )
+  (fp_line (start -7.62 6.35) (end -7.62 -6.35) (layer F.SilkS) (width 0.15))
+  (fp_line (start 7.62 6.35) (end -7.62 6.35) (layer F.SilkS) (width 0.15))
+  (fp_line (start 7.62 -6.35) (end 7.62 6.35) (layer F.SilkS) (width 0.15))
+  (fp_line (start -7.62 -6.35) (end 7.62 -6.35) (layer F.SilkS) (width 0.15))
+  (pad 1 smd rect (at 0 0) (size 17.78 15.24) (layers F.Cu))
+)

@@ -13,12 +13,13 @@
 * USB Jack (Type A)
 * USB JAck (Type B)
 * RJ45 Jack
+* MicroSD card slot
 
 
 ### conn-power.pretty ###
 
 * DC Barrel Jack
-
+* Battery holder
 
 ### conn-wire-pads.pretty ###
 
@@ -65,6 +66,7 @@ SOP SMT packages
 
 * SSOP : 14,16,20,24,28 pins - 5.3mm (JEDEC MO-150)
 * MSOP : 8 pins - 3mm (JEDEC MO-187)
+* TSSOP : 16 pins - 4.4mm (JEDEC MO-153)
 
 
 ### smt-sot.pretty ###
@@ -73,12 +75,12 @@ SOT SMT packages
 
 * SOT-143
 * SOT-23
-
+* SOT-223
 
 ### crystals.pretty ###
 
 * HC49UP (SMT)
-
+* CSM-3X (7x4mm)
 
 ### symbols.pretty ###
 

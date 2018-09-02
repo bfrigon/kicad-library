@@ -4,4 +4,7 @@
     - CUI PJ-013C
     - CUI PJ-031CH
     - CUI P1J-021-SMT
-  
+
+* Battery holder
+    - BC501SM - CR1220 type
+
