@@ -1,4 +1,4 @@
-This repository contains my libraries for Kicad, an open source EDA (http://www.kicad-pcb.org/). 
+This repository contains my libraries for Kicad, an open source EDA (http://www.kicad.org/). 
 
 I didn't like the way the schematic symbols are drawn in the default libraries. Some of the symbols are too big or have pins that are too long. Also, as far as i know, all the passive components have IEC symbols. That's not a bad thing at all, i just prefer ANSI.
 
